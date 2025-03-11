@@ -13,20 +13,20 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '21484'))
-API_HASH = environ.get('API_HASH', 'db6286a041adf07ef4244e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7807I9ygow9sLqNQuI7hsWPm5FLNfBr9c')
+API_ID = int(environ.get('API_ID', '21004607'))
+API_HASH = environ.get('API_HASH', 'b6bf941174179ae226255aa12f7fb2eb')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7564508653:AAGZUzfK17QNVz9HA1AYtmeCYJUenVHo9Rs')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5665677555').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Innocent_babe_dead") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002190681742'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5435106517').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/Mezoroo") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002261856991'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+Adx7t-JWSv5iZDM9')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002441443379').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv:learningbots.5yddr.mongodb.net/?retryWrites=true&w=majority&appName=learningbots")
-DATABASE_NAME = environ.get('DATABASE_NAME', "learningbots")
+DATABASE_URI = environ.get('DATABASE_URL', "mongodb+srv://noobtoprogameronline2:noobtoprogameronline2@ayushsi.r0hu1.mongodb.net/?retryWrites=true&w=majority&appName=ayushsi")
+DATABASE_NAME = environ.get('DATABASE_NAME', "ayushsi")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
