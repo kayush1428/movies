@@ -13,20 +13,19 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '21004607'))
-API_HASH = environ.get('API_HASH', 'b6bf941174179ae226255aa12f7fb2eb')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH b')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7955652486:AAF8Ztfxqe2khoRdfWtHXwHgo6IBu-SbHeM')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5435106517').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Mezoroo") # ADMIN USERNAME
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '543').split()]
+USERNAME = environ.get('USERNAME', "https:o") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002261856991'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+Adx7t-JWSv5iZDM9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002441443379').split()]
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK',)
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-179').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URL', "mongodb+srv://noobtoprogameronline2:noobtoprogameronline2@ayushsi.r0hu1.mongodb.net/?retryWrites=true&w=majority&appName=ayushsi")
-DATABASE_NAME = environ.get('DATABASE_NAME', "ayushsi")
+DATABASE_URI = environ.get('DATABASE_URL'")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
